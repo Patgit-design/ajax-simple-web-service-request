@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    background: black;
+    margin: 0px;
+    padding: 5%;
+    padding-left: 25%;
+}
+
+#quote {
+    color: aliceblue;
+    font-family: 'Palatino', 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
+    font-style: italic;
+    font-size: 3vw;
+    max-width: 65%;
+    height: auto;
+    /* -webkit-transition: all 900ms cubic-bezier(0.165, 0.84, 0.44, 1);*/
+    /* -moz-transition: all 900ms cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 900ms cubic-bezier(0.165, 0.84, 0.44, 1);*/
+}
+
+#author {
+    color: aliceblue;
+    font-family: 'Brush Script MT', 'Brush Script Std', cursive;
+    font-size: 1.8vw;
+    padding-left: 50%;
+    max-width: 35%;
+}
+
+#image {
+    max-width: auto;
+    max-height: 20vh;
+    box-shadow: .4em .3em .8em #aaa;
+}
+
+#load {
+    font-size: 1em;
+    border: hidden;
+    margin-top: 5%;
+    max-width: 10%;
+    height: auto;
+    color: #000;
+    background: #444;
+    background: linear-gradient( #555, #2C2C2C);
+    border-radius: 8px;
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.658);
+    box-shadow: 0 0 5px rgba(146, 144, 144, 0.5), 0 -1px 0 rgba(236, 230, 230, 0.658);
+}
+
+#load:hover {
+    color: #222;
+    background: rgb(160, 156, 156);
+    background: linear-gradient( rgb(187, 178, 178), #333);
+}
